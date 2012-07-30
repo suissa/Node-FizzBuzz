@@ -23,9 +23,13 @@
 node test/assert/fizzbuzz-test-assert.js
 
 ###NodeUnit test
+sudo npm install -g nodeunit
 nodeunit test/nodeunit/fizzbuzz-test-nodeunit.js 
 
 ###Mocha test
+sudo npm install -g mocha
 mocha -R spec test/mocha/fizzbuzz-test-mocha.js 
 
-
+###Vows test
+sudo npm install -g vows
+node test/vows/fizzbuzz-test-vows.js
