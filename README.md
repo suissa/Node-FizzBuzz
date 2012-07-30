@@ -19,6 +19,7 @@ This experiment is for study purposes. Lets test with several suite tests with n
 	- NodeUnit [NodeUnit](http://nodejs.org/docs/v0.3.1/api/assert.html "NodeUnit")
 	- Mocha [Vows BDD](https://github.com/visionmedia/mocha "Mocha BDD")
 	- Vows [Vows BDD](http://vowsjs.org/ "Vows BDD")
+	- Jasmine [Jasmine BDD](https://github.com/pivotal/jasmine/wiki "Jasmine BDD")
 
 
 ##Dependencies:
