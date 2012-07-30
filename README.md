@@ -26,6 +26,7 @@ This experiment is for study purposes. Lets test with several suite tests with n
 	- nodeunit
 	- mocha
 	- vows
+	- jasmine-node
 
 ###Assert test
 - node test/assert/fizzbuzz-test-assert.js
