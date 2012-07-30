@@ -19,12 +19,14 @@ This experiment is for study purposes. Lets test with several suite tests with n
 	- NodeUnit [NodeUnit](http://nodejs.org/docs/v0.3.1/api/assert.html "NodeUnit")
 	- Mocha [Vows BDD](https://github.com/visionmedia/mocha "Mocha BDD")
 	- Vows [Vows BDD](http://vowsjs.org/ "Vows BDD")
+	- Jasmine [Jasmine BDD](https://github.com/pivotal/jasmine/wiki "Jasmine BDD")
 
 
 ##Dependencies:
 	- nodeunit
 	- mocha
 	- vows
+	- jasmine-node
 
 ###Assert test
 - node test/assert/fizzbuzz-test-assert.js
@@ -40,3 +42,7 @@ This experiment is for study purposes. Lets test with several suite tests with n
 ###Vows test
 - sudo npm install -g vows
 - node test/vows/fizzbuzz-test-vows.js
+
+###Jasmine test
+- sudo npm install -g jasmine-node
+- node test/jasmine/fizzbuzz-test-jasmine.js
