@@ -4,35 +4,46 @@ var vows        = require('vows')
 
 
 vows.describe('Fizz Buzz Suite').addBatch({
-    'Fizz test': {
+    'Fizz test with 3': {
+        topic: function () { return fizzbuzz.isFizz( 3 ) },
+
+        'isFizz': function ( topic ) {
+            assert.equal( topic, 1 );
+        }
+    }
+    ,'Fizz test with 6': {
         topic: function () { return fizzbuzz.isFizz( 6 ) },
 
         'isFizz': function ( topic ) {
             assert.equal( topic, 1 );
         }
     }
-    ,'Buzz test': {
+    ,'Buzz test with 5': {
+        topic: function () { return fizzbuzz.isBuzz( 5 ) },
+
+        'isBuzz': function ( topic ) {
+            assert.equal( topic, true );     
+        }
+    }
+    ,'Buzz test with 10': {
         topic: function () { return fizzbuzz.isBuzz( 10 ) },
 
         'isBuzz': function ( topic ) {
             assert.equal( topic, true );     
         }
     }
-    ,'FizzBuzz test': {
+    ,'FizzBuzz test with 15': {
         topic: function () { return fizzbuzz.isFizzBuzz( 15 ) },
 
         'isFizzBuzz': function ( topic ) {
             assert.equal( topic, true );    
         }
     }
-    // ,'FizzBuzz sequence test': {
-    //     topic: function () { return fizzbuzz.answareMe( 1, 6 ) },
+    ,'FizzBuzz test with 20': {
+        topic: function () { return fizzbuzz.isFizzBuzz( 20 ) },
 
-    //     'answare Me who\'s who': function ( topic ) {
-    //         assert.equal(
-    //             JSON.stringify( topic ), 
-    //             JSON.stringify( [1, 2, 'Fizz', 4, 'Buzz', 'Fizz'] ) 
-    //         )    
-    //     }
-    // }
+        'isFizzBuzz': function ( topic ) {
+            assert.equal( topic, false );    
+        }
+    }
 }).run();
