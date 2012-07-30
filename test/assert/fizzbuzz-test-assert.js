@@ -4,9 +4,7 @@ var assert 		= require('assert')
 	,good		= 0
 	,total		= 0
     ,fizzbuzz 	= require('../../lib/fizzbuzz-module.js');
-console.log(fizzbuzz.isFizz(6));
-
-// assert.ok(fizzbuzz.isFizz(6), "6 is Fizz");
+    
 try {
     console.log("assert if 6 is Fizz");
 	assert.ok(fizzbuzz.isFizz(6), "6 is Fizz")
