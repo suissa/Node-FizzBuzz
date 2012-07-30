@@ -7,3 +7,19 @@ Neste problema, você deverá exibir uma lista de 1 a 100, um em cada linha, com
 
 [FizzBuzz Dojo Puzzle](http://dojopuzzles.com/problemas/exibe/fizzbuzz/ "FizzBuzz Dojo Puzzle")
 
+
+##Dependencies:
+*nodeunit
+*mocha
+*vows
+
+###Assert test
+node test/assert/fizzbuzz-test-assert.js
+
+###NodeUnit test
+nodeunit test/nodeunit/fizzbuzz-test-nodeunit.js 
+
+###Mocha test
+node test/assert/fizzbuzz-test-assert.js 
+
+
