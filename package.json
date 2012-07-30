@@ -1,18 +1,18 @@
 {
-  "name": "JS-FizzBuzz",
-  "description": "The best project ever.",
+  "name": "Node-FizzBuzz",
+  "description": "Testing different test suites.",
   "version": "0.1.0",
-  "homepage": "https://github.com/leobetosouza/JS-FizzBuzz",
+  "homepage": "https://github.com/suissa/Node-FizzBuzz",
   "author": {
-    "name": "Leonardo Alberto Souza",
-    "email": "leobetosouza@gmail.com"
+    "name": "Jean Carlo Nascimento aka SUISSA",
+    "email": "jnascimento@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/leobetosouza/JS-FizzBuzz.git"
+    "url": "git://github.com/suissa/Node-FizzBuzz.git"
   },
   "bugs": {
-    "url": "https://github.com/leobetosouza/JS-FizzBuzz/issues"
+    "url": "https://github.com/suissa/Node-FizzBuzz/issues"
   },
   "licenses": [
     {
@@ -22,14 +22,13 @@
   ],
   "dependencies": {},
   "devDependencies": {
-    "grunt": "~0.2.15"
+    "nodeunit": "~0.7.4",
+    "mocha": "~1.3.0",
+    "vows": "~0.6.3",
   },
-  "keywords": [],
+  "keywords": ["unit", "test", "suite", "bdd", "tdd"],
   "engines": {
     "node": ">= 0.8.1"
   },
-  "main": "lib/JS-FizzBuzz",
-  "scripts": {
-    "test": "grunt test"
-  }
+  "main": ""
 }
