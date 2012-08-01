@@ -17,4 +17,3 @@ expect( fizzbuzz.isFizzBuzz( 15 ) ).to.be.equal( true );
 fizzbuzz.isFizz( 3 ).should.equal( true );
 fizzbuzz.isBuzz( 5 ).should.equal( true );
 fizzbuzz.isFizzBuzz( 15 ).should.equal( true );
-
