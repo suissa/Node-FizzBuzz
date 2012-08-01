@@ -25,7 +25,8 @@
     "nodeunit": "~0.7.4",
     "mocha": "~1.3.0",
     "vows": "~0.6.3",
-    "jasmine-node": "latest"
+    "jasmine-node": "latest",
+    "chai": "latest"
   },
   "keywords": ["unit", "test", "suite", "bdd", "tdd"],
   "engines": {
