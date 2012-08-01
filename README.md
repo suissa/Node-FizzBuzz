@@ -46,3 +46,8 @@ This experiment is for study purposes. Lets test with several suite tests with n
 ###Jasmine test
 - sudo npm install -g jasmine-node
 - node test/jasmine/fizzbuzz-test-jasmine.js
+ 
+
+##Issues
+- Test with http://chaijs.com/
+
