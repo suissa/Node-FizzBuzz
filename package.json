@@ -28,9 +28,18 @@
     "jasmine-node": "latest",
     "chai": "latest"
   },
-  "keywords": ["unit", "test", "suite", "bdd", "tdd"],
+  "keywords": [
+    "unit",
+    "test",
+    "suite",
+    "bdd",
+    "tdd"
+  ],
   "engines": {
     "node": ">= 0.8.1"
   },
-  "main": ""
+  "main": "",
+  "scripts": {
+    "preinstall": "node preinstall.js"
+  }
 }
